@@ -3,6 +3,7 @@ import streamlit as st
 from PIL import Image, ImageFilter, ImageEnhance
 import os
 from datetime import datetime
+# 깃 연동
 
 # 디렉토리와 이미지을 주면, 해당 디렉토리에 이 이미지을 저장하는 함수
 def save_uploaded_file(directory, img) :
